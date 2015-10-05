@@ -1,19 +1,62 @@
 # PHP Team Up 
 
-## Purpose 
-To help inexperienced php developers improve their learning processes by introducing team mates into mentor-apprentice relationships.
-Team mates would often answer most of apprentice's questions, offloading the mentor, who could then use gained time to help others.
+## Premise
+
+Developing in team is fun and it's a great way to learn. 
+
+A good team enhances the skills of its members, pushes them towards new limits and leverages on their diversity to get the best.
+
+Also, the complexity of modern development makes it **mandatory** because nobody can keep up with **everything**.
 
 ## Problem
-Lately, we see initiatives aiming at helping developers learn by pairing them up with experienced developers, so called mentors.
-That's great, but when a mentor helps his so called apprentice, he's only hepling one person at a time. 
-What if we could bring this to the next level?
+
+Teaming up with other developers can be hard, especially in the early stage.
+
+Mentoring is a great option but it doesn't exactly mean "teaming up" since it's a one-to-one relationship. Also, mentoring can be resource consuming for the mentor.
+
+Joining a project on Github or Gitlab is a good way to go but "technical debt", "impostor syndrome", "shyness" and, sometimes, "social barriers" (of any kind) get in the way.
 
 ## Solution
-To create a web application, that allows people to team up for a given goal, for ex. "Learn PHPUnit". Then, a best fitting mentor 
-is assigned to the team, and gives it a task. Team completes a task, and on the way it learns PHPUnit. Mentor reviews the task and 
-gives feedback. If the team has problems on the way (and it probably does), team mates try to help each other. Most of 
-the times, it's enough. If not, and everyone is stuck, only then they contact the mentor. That way, his efficiency is maximized, 
-and more people can benefit from his knowledge.
+PHP TeamUp is a web application that helps people to team up and grow under the guidance of a mentor who will be able to leverage on the team mutual support and train more people at once.
+
+The current draft goes like this:
+
+> Jenny is an experienced developer who wants to get better on PHPunit testing. She writes a statement like this one:
+
+    **I want to** write a _container traking application_ as a proof of concept
+    **in order to** deepen the PHP unit testing.
+    **I plan to use**:
+        * slim framework
+        * composer
+    **Additional details** the application will be a RESTful API with no GUI
+    **Tags**: phpunit, testing
+
+> Jenny's statement gets published
+
+> Vladimir and Stella are young students with little or no experience who have heard about the importance of testing. They apply to Jenny's project.
+
+> Mario feels quite confident with PHPunit but he's a bit rusty on git because he rarely works in team. He applies to Jenny's project too.
+
+> Jenny gets notified about the join-requests and speaks with them all. She drops Stella because she lacks the basics but she feels good with all the others. So she approves their requests. A team just born.
+
+> The team asks the available mentors listed in [phpmentoring.org](http://dev.app.phpmentoring.org/mentors) for support.
+
+> Jing accepts to be a mentor. He reads Jenny's statement, talks to the team and helps them to tackle the problem from the right angle.
+
+> The team starts working on the project and goes back to the mentor for help only when stuck.
+
+> When the project seems complete, the mentor reviews the job with the team.
+
+**Note:**
+
+Jenny's statement could also be any open source ticket, for instance, one of those tagged "Easy Pick"
 
 
+## References
+
+* [Easy Picks on github](https://github.com/search?l=PHP&p=2&q=is%3Aopen+label%3A%22Easy+Pick%22+&type=Issues&utf8=%E2%9C%93)
+* [Encouraging contributions with the Easy Pick label - Jordi Boggiano](http://seld.be/notes/encouraging-contributions-with-the-easy-pick-label)
+* [Your first PR website](http://yourfirstpr.github.io/)
+* [Your first PR twitter](https://twitter.com/yourfirstpr)
+* [Lowering the barriers - Charlotte Spencer](https://the-pastry-box-project.net/charlotte-spencer/2015-september-16)
+* [Up For Grabs - tasks for new contributors](http://up-for-grabs.net/)
