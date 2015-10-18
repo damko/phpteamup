@@ -7,12 +7,12 @@ Also, separated architecture is more flexible. We could use each sub-app in many
 
 For now, we're thinking about three apps - Domain, Contacts, and Frontend.
 
-# PHPTeamUp Domain
+## PHPTeamUp Domain
 This would be the heart of the project, holding all the domain logic, responsible for managing user interaction.
 
-# PHPTeamUp Contacts
+## PHPTeamUp Contacts
 Reposible for holding user data and managing authentication. We're thinking about private and public layers. Private for 
 PHPTeamUp usage only (with all the sensitive stuff), and public for authentication (may be used by anyone).
 
-# PHPTeamUp Frontend
+## PHPTeamUp Frontend
 Face of the application. Responsible for everything that happens on the client's side.
