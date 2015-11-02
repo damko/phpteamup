@@ -1,5 +1,7 @@
 # PHP Team Up 
 
+[![Join the chat at https://gitter.im/damko/phpteamup](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/damko/phpteamup?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Premise
 
 Developing in team is fun and it's a great way to learn. 
