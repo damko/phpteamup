@@ -17,11 +17,12 @@ Mentoring is a great option but it doesn't exactly mean "teaming up" since it's 
 Joining a project on Github or Gitlab is a good way to go but "technical debt", "impostor syndrome", "shyness" and, sometimes, "social barriers" (of any kind) get in the way.
 
 ## Solution
+
 PHP TeamUp is a web application that helps people to team up and grow under the guidance of a mentor who will be able to leverage on the team mutual support and train more people at once.
 
 The current draft goes like this:
 
-> Jenny is an experienced developer who wants to get better on PHPunit testing. She writes a statement like this one:
+> Monalisa is an experienced developer who wants to get better on PHPunit testing. She writes a statement like this one:
 
     **I want to** write a _container traking application_ as a proof of concept
     **in order to** deepen the PHP unit testing.
@@ -31,17 +32,17 @@ The current draft goes like this:
     **Additional details** the application will be a RESTful API with no GUI
     **Tags**: phpunit, testing
 
-> Jenny's statement gets published
+> Monalisa's statement gets published
 
-> Vladimir and Stella are young students with little or no experience who have heard about the importance of testing. They apply to Jenny's project.
+> Vladimir and Stella are young students with little or no experience who have heard about the importance of testing. They apply to Monalisa's project.
 
-> Mario feels quite confident with PHPunit but he's a bit rusty on git because he rarely works in team. He applies to Jenny's project too.
+> Mario feels quite confident with PHPunit but he's a bit rusty on git because he rarely works in team. He applies to Monalisa's project too.
 
-> Jenny gets notified about the join-requests and speaks with them all. She drops Stella because she lacks the basics but she feels good with all the others. So she approves their requests. A team just born.
+> Monalisa gets notified about the join-requests and speaks with them all. She drops Stella because she lacks the basics but she feels good with all the others. So she approves their requests. A team just born.
 
 > The team asks the available mentors listed in [phpmentoring.org](http://dev.app.phpmentoring.org/mentors) for support.
 
-> Jing accepts to be a mentor. He reads Jenny's statement, talks to the team and helps them to tackle the problem from the right angle.
+> Jing accepts to be a mentor. He reads Monalisa's statement, talks to the team and helps them to tackle the problem from the right angle.
 
 > The team starts working on the project and goes back to the mentor for help only when stuck.
 
@@ -49,7 +50,7 @@ The current draft goes like this:
 
 **Note:**
 
-Jenny's statement could also be any open source ticket, for instance, one of those tagged "Easy Pick"
+Monalisa's statement could also be any open source ticket, for instance, one of those tagged "Easy Pick"
 
 
 ## References
